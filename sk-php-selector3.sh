@@ -78,6 +78,7 @@ tput sgr0
     installit 80 8.0
     installit 81 8.1
     installit 82 8.2
+    installit 83 8.3
 }
 usage () {
 tput setaf 1
@@ -92,7 +93,7 @@ tput sgr0
 echo "bash $0 all"
 tput setaf 1
     echo "###############################################"
-	echo "Supported Versions: 54, 55, 56, 70, 71, 72, 73, 80, 81, 82"
+	echo "Supported Versions: 54, 55, 56, 70, 71, 72, 73, 80, 81, 82, 83"
     echo "###############################################"
 tput sgr0
 }
@@ -126,6 +127,7 @@ tput sgr0
             php80) installit 80 8.0 ;;
             php81) installit 81 8.1 ;;
             php82) installit 82 8.2 ;;
+            php83) installit 83 8.3 ;;
 			all) all ;;
 	  esac
 done
