@@ -80,7 +80,7 @@ tput sgr0
     installit 82 8.2
     installit 83 8.3
     installit 84 8.4
-    installit 84 8.4
+    installit 85 8.5
 }
 usage () {
 tput setaf 1
@@ -130,8 +130,8 @@ tput sgr0
             php81) installit 81 8.1 ;;
             php82) installit 82 8.2 ;;
             php83) installit 83 8.3 ;;
-            php83) installit 84 8.4 ;;
-            php83) installit 85 8.5 ;;
+            php84) installit 84 8.4 ;;
+            php85) installit 85 8.5 ;;
 			all) all ;;
 	  esac
 done
